@@ -20,6 +20,8 @@ packages=(
 
   xf86-input-libinput
   xorg-xinput
+  brightnessctl
+  pipewire pipewire-pulse wireplumber
 
   mpd mpc
   falkon
