@@ -1,3 +1,6 @@
+#!/bin/bash
+source functions.sh
+
 packages=(
   xorg-server xorg-xinit
   bspwm sxhkd
@@ -19,6 +22,7 @@ packages=(
   xorg-xinput
 
   mpd mpc
+  falkon
   kitty
 
   breeze-cursors
@@ -26,4 +30,4 @@ packages=(
 )
 
 echo 'Installing bspwm .....'; sleep 2;
-install ${[packages@]};
+install ${packages[@]};
