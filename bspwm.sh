@@ -16,7 +16,9 @@ packages=(
   polybar
   rofi
 
+  networkmanager
   wireless_tools
+  bluez bluez-utils
 
   xf86-input-libinput
   xorg-xinput
@@ -28,8 +30,26 @@ packages=(
   kitty
 
   breeze-cursors
-  ttf-jetbrains-mono-nerd
+)
+
+utils=(
+	fastfetch
+	zsh trash-cli
+	man-db fzf yazi
+	zip unzip
+	axel htop git tree
+)
+
+fonts=(
+	noto-fonts
+	noto-fonts-cjk
+	noto-fonts-emoji
+	noto-fonts-extra
+	#ttf-dejavu
+	ttf-jetbrains-mono-nerd
 )
 
 echo 'Installing bspwm .....'; sleep 2;
 install ${packages[@]};
+install ${utils[@]};
+install ${fonts[@]};
