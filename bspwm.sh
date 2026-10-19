@@ -45,7 +45,7 @@ fonts=(
 	noto-fonts-cjk
 	noto-fonts-emoji
 	noto-fonts-extra
-	#ttf-dejavu
+	ttf-dejavu
 	ttf-jetbrains-mono-nerd
 )
 
