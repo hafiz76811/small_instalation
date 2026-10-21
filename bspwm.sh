@@ -10,8 +10,9 @@ packages=(
   xwallpaper
   xorg-xset xss-lock i3lock
   xcolor
-  lxsession
-  maim xclip slop
+  lxsession polkit-gnome
+  maim slop xclip
+  ffmpeg
   dunst libnotify
   polybar
   rofi
